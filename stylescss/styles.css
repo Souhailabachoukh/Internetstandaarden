@@ -36,17 +36,39 @@ h1 {
     justify-content: center;
     align-items: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+p {
+    color: rgb(220, 213, 213);
+    font-size: 1em;
 }
 
 
-p{
+.overons {
+    margin-top: 4em;
+    display: flex;
+    justify-content: left;
+    margin-left: 2em;
+    max-width: 60%;
+}
+
+main p {
+    margin-left: 21em;
+    max-width: 70%;
+    margin-top: -13em;
+}
+
+section p{
     color: rgb(220, 213, 213);
     text-align: justify;
     max-width: 600px;
     word-wrap: break-word;
     letter-spacing: 0.5px;
     font-size: 1em;
-    margin-left: 1.5em;
+    margin-bottom: 4em;
+    margin-top: -1.5em;
+    margin-left: 2em;
 }
 
 nav ul {
@@ -115,11 +137,19 @@ main h2 {
     color: rgb(159, 0, 0);
     font-size: 2em;
     margin-left: 1.5em;
+    margin-top: 4em;
+    margin-left: 10.5em;
+    margin-bottom: -0.2em;
 }
 
-img {
-    width: 20%;
-    padding-left: 2em;
+
+.naam {
+    display: flex;
+    justify-content: left;
+    margin-left: 1em;
+    margin-bottom: -1em;
+    font-size: 2em;
+    margin-top: 1em;
 }
 
 footer nav {
@@ -128,6 +158,7 @@ footer nav {
     justify-content: center;
     display: flex;
     align-items: center;
+    margin-top: 5em;
 }
 
 footer a {
@@ -139,7 +170,6 @@ footer a {
     color: rgb(255, 255, 255);
     box-shadow: 0 2px 0  darkgray;
     transition: 350ms ease;
- 
 }
 
 footer a:hover {
@@ -165,11 +195,18 @@ header img {
     padding-left: 17px;
 }
 
+img {
+    width: 20%;
+    padding-left: 2em;
+    margin-top: -4em;
+}
+
 .foto {
     display: flex;
     justify-content: center;
     gap: 20px;
     align-items: center;
+    
 }
 
 h4 {
@@ -179,25 +216,25 @@ h4 {
     justify-content: center;
     display: flex;
     align-items: center;
+    margin-bottom: 2em;
 }
 
-main p {
-    margin-bottom: 7em;
-    margin-top: -1.5em;
-    margin-left: 2em;
-}
 
 .kopje {
     text-align: left;
     justify-content: left;
     align-items: left;
+    margin-top: 2em;
+    margin-left: 10.5em;
+    margin-bottom: -0.3em;
 }
 
 h5 {
-    color: white;
+    color: rgb(165, 7, 7);
     font-size: 1.8em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 1em;
+    margin-top: 4em;
 }
 
 .afleveringen {
@@ -223,15 +260,45 @@ h5 {
 }
 
 .knop {
-
     font-size: 2em;
-    margin-right: 2em;
+    margin-left: 1em;
+    margin-top: -1em;
 }
 
 main a {
     display: inline-block;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: rgb(159, 2, 2);
     color: white;
     padding: 4px 8px;
+}
+
+.tekstveld {
+        width: 30%; 
+        height: 20vh;
+        font-size: 1.5em;
+        border: 3px solid #747373;
+        border-radius: 8px;
+        margin-bottom: 3em;
+        margin-left: 1em;
+        margin-top: -1em;
+}
+
+.illustraties {
+    float: right;
+    margin-top: -18em;
+    margin-right: 3em;
+}
+
+#israe {
+    float: right;
+    margin-top: -19.5em;
+    margin-right: 3em;
+}
+
+.afleveringenbalk {
+    float: right;
+    width: 50%;
+    margin-right: 6em;
+    margin-top: 0.5em;
 }
