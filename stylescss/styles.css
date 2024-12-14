@@ -14,7 +14,6 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    
 }
 
 header h1 {
@@ -103,13 +102,13 @@ header {
 }
 
 .main-header{
-    padding-bottom: 10px;
+    padding-bottom: 0.6em;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.574);
 
 }
 
-nav {
+header nav {
     border-bottom: 1px solid gray;
 }
 
@@ -129,6 +128,7 @@ header h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 2em;
 }
 
 main h2 {
@@ -241,7 +241,7 @@ h5 {
     display: flex;
     justify-content: center;
     font-size: 1.5em;
-    
+    margin-top: 2em;
 }
 
 .afleveringen a {
@@ -301,4 +301,8 @@ main a {
     width: 50%;
     margin-right: 6em;
     margin-top: 0.5em;
+}
+
+.homepagina {
+    margin-top: -4em;
 }
