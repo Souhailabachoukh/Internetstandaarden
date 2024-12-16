@@ -45,7 +45,7 @@ p {
 
 
 .overons {
-    margin-top: 4em;
+    margin-top: 3em;
     display: flex;
     justify-content: left;
     margin-left: 2em;
@@ -58,7 +58,7 @@ main p {
     margin-top: -13em;
 }
 
-section p{
+.homepagina p{
     color: rgb(220, 213, 213);
     text-align: justify;
     max-width: 600px;
@@ -142,45 +142,6 @@ main h2 {
     margin-bottom: -0.2em;
 }
 
-
-.naam {
-    display: flex;
-    justify-content: left;
-    margin-left: 1em;
-    margin-bottom: -1em;
-    font-size: 2em;
-    margin-top: 1em;
-}
-
-footer nav {
-    padding-bottom: 6em;
-    padding-top: 3em;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-top: 5em;
-}
-
-footer a {
-    padding: 4px 8px;
-    background-color: rgb(122, 120, 120);
-    border-radius: 8px;
-    cursor: pointer;
-    transition: ease;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 2px 0  darkgray;
-    transition: 350ms ease;
-}
-
-footer a:hover {
-    background-color: darkred;
-}
-
-footer a:active {
-    transform: translateY(3px);
-    
-}
-
 header img {
     padding-left: 0px;
     width: 60%;
@@ -234,7 +195,7 @@ h5 {
     font-size: 1.8em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 1em;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 .afleveringen {
@@ -284,15 +245,25 @@ main a {
         margin-top: -1em;
 }
 
+.naam {
+    display: flex;
+    justify-content: left;
+    margin-left: 1em;
+    margin-bottom: -1em;
+    font-size: 2em;
+    margin-top: 3em;
+}
+
 .illustraties {
     float: right;
-    margin-top: -18em;
+    margin-top: -13em;
     margin-right: 3em;
+    margin-bottom: 3em;
 }
 
 #israe {
     float: right;
-    margin-top: -19.5em;
+    margin-top: -14em;
     margin-right: 3em;
 }
 
@@ -300,9 +271,45 @@ main a {
     float: right;
     width: 50%;
     margin-right: 6em;
-    margin-top: 0.5em;
+    margin-top: 0.01em;
+    margin-bottom: 5em;
 }
 
-.homepagina {
-    margin-top: -4em;
+
+
+
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(159, 0, 0);
+    margin-left: 1em;
+    font-size: 2.2em;
+    margin-bottom: 1em;
+    margin-top: -1em;
+}
+
+ .video {
+    display: flex;
+    justify-content: right;
+    margin-top: -2em;
+    margin-right: 2em;
+ }
+
+ video {
+    width: 20%;
+    height: 25em;
+    float: right;
+    margin-right: 8em;
+    border: 2px solid rgb(212, 210, 210);
+    border-radius: 10px;
+    
+}
+
+section a:hover {
+    color: rgb(218, 16, 16);
+}
+
+section a:hover {
+    transform: translateY(3px);
+    
 }
