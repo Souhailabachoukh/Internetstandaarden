@@ -7,18 +7,19 @@ body {
     background-color: rgba(3, 3, 3, 0.499);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(fotos/background.jpg);
-    background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     background-size: 100% 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
     background-blend-mode: multiply;
 }
 
-header h1 {
+p {
+    color: rgb(220, 213, 213);
+    font-size: 1em;
+}
+
+/*titel: het moord dossier*/
+header h1 { 
     font-size: 4.5em;
-    font-weight: bolder;
     color: darkred;
     margin-top: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,53 +28,23 @@ header h1 {
     align-items: center;
 }
 
-h1 {
-    font-size: 4em;
-    font-weight: bolder;
-    color: darkred;
+/*slogan*/
+header h2 {
+    color: rgba(249, 248, 248, 0.808);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -1em;
+    margin-bottom: 3em;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    font-size: 2em;
 }
 
-p {
-    color: rgb(220, 213, 213);
-    font-size: 1em;
-}
-
-
-.overons {
-    margin-top: 3em;
-    display: flex;
-    justify-content: left;
-    margin-left: 2em;
-    max-width: 60%;
-}
-
-main p {
-    margin-left: 21em;
-    max-width: 70%;
-    margin-top: -13em;
-}
-
-.homepagina p{
-    color: rgb(220, 213, 213);
-    text-align: justify;
-    max-width: 600px;
-    word-wrap: break-word;
-    letter-spacing: 0.5px;
-    font-size: 1em;
-    margin-bottom: 4em;
-    margin-top: -1.5em;
-    margin-left: 2em;
-}
-
+/*margin bij nav weghalen*/
 nav ul {
     margin: 0;
 }
 
+/*nav naast elkaar*/
 nav li {
     display: inline-block;
     margin-bottom: 1em;
@@ -83,149 +54,92 @@ a {
     text-decoration: none;
     color: white;
     font-size: 1.28em;
-    font-weight: normal;
     font-family: 'Times New Roman', Times, serif;
     padding-left: 1em;
     transition: 350ms ease;
     display: flex;
 }
 
-
-
 nav a:hover {
     color: red;
-}
-
-header {
-    margin: 0;
-    padding: 0;
-}
-
-.main-header{
-    padding-bottom: 0.6em;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.574);
-
 }
 
 header nav {
     border-bottom: 1px solid gray;
 }
 
+/*logo*/
+header img {
+    padding-left: 0px;
+    width: 60%;
+    margin-top: 1em;
+    
+}
+
+/*bovenste zwarte achtergrond*/
+.main-header{
+    padding-bottom: 0.6em;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.574);
+}
+
+/*homepagina*/
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
     color: rgb(159, 0, 0);
     margin-left: 1em;
     font-size: 2.2em;
 }
 
-header h2 {
-    color: rgba(249, 248, 248, 0.808);
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: -1em;
-    margin-bottom: 3em;
+/*kopje: bekijk teaservideo*/
+.video {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
+    justify-content: right;
+    margin-top: -2em;
+    margin-right: 2em;
+ }
+/*teaservideo*/
+ video {
+    width: 20%;
+    height: 25em;
+    float: right;
+    margin-right: 8em;
+    border: 2px solid rgb(212, 210, 210);
+    border-radius: 10px;
+    
 }
 
-main h2 {
+/*kopje: homepagina*/
+h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: rgb(159, 0, 0);
-    font-size: 2em;
-    margin-left: 1.5em;
-    margin-top: 4em;
-    margin-left: 10.5em;
-    margin-bottom: -0.2em;
-}
-
-header img {
-    padding-left: 0px;
-    width: 60%;
-    height: auto;
-    margin-top: 1em;
-    
-}
-
-.small-img {
-    width: 15%;
-    height: auto;
-    padding-left: 17px;
-}
-
-img {
-    width: 20%;
-    padding-left: 2em;
-    margin-top: -4em;
-}
-
-.foto {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
-    
-}
-
-h4 {
-    font-size: 2.5em;
-    color: rgb(165, 7, 7);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-bottom: 2em;
-}
-
-
-.kopje {
-    text-align: left;
-    justify-content: left;
-    align-items: left;
-    margin-top: 2em;
-    margin-left: 10.5em;
-    margin-bottom: -0.3em;
-}
-
-h5 {
-    color: rgb(165, 7, 7);
-    font-size: 1.8em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 1em;
-    margin-top: 2em;
+    font-size: 2.2em;
+    margin-bottom: 1em;
+    margin-top: -1em;
 }
 
-.afleveringen {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5em;
-    margin-top: 2em;
+/*tekst homepagina*/
+.homepagina p{
+    color: rgb(220, 213, 213);
+    text-align: justify;
+    max-width: 37em;
+    letter-spacing: 0.5px;
+    margin-bottom: 4em;
+    margin-top: -1.5em;
+    margin-left: 2em;
 }
 
-.afleveringen a {
-    border-radius: 8px;
-    cursor: pointer;
-    transition: ease;
-    padding: 4px 8px;
-    background-color: rgb(159, 0, 0);
-    box-shadow: 0 2px 0  rgba(245, 241, 241, 0.665);
-    transition: 350ms ease;
-    margin-bottom: 3em;
-}
-
-.afleveringen a:active {
-    transform: translateY(3px);
-}
-
+/*luister nu knop*/
 .knop {
     font-size: 2em;
     margin-left: 1em;
     margin-top: -1em;
+    box-shadow: 0 1px 0  rgba(245, 241, 241, 0.665);
 }
 
+/*luister nu knop*/
 main a {
     display: inline-block;
     border-radius: 10px;
@@ -234,6 +148,71 @@ main a {
     padding: 4px 8px;
 }
 
+section a:hover {
+    color: rgb(218, 16, 16);
+}
+
+/*knop wordt ingedrukt*/
+section a:hover {
+    transform: translateY(3px);
+}
+
+/*kopje: populairste afleveringen*/
+h4 {
+    font-size: 2.5em;
+    color: rgb(165, 7, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+/*populairste afleveringen homepagina*/
+.foto {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*populairste afleveringen fotos homepagina*/
+.small-img {
+    width: 15%;
+    padding-left: 1em;
+}
+
+/*afleveringen knop*/
+.afleveringen {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+/*afleveringen knop*/
+.afleveringen a {
+    border-radius: 8px;
+    cursor: pointer;
+    transition: ease;
+    padding: 4px 8px;
+    background-color: rgb(159, 0, 0);
+    box-shadow: 0 1px 0  rgba(245, 241, 241, 0.665);
+    transition: 350ms ease;
+    margin-bottom: 3em;
+    font-weight: bold;
+}
+
+.afleveringen a:active {
+    transform: translateY(3px);
+}
+
+/*kopje: ideeen delen homepagina*/
+h5 {
+    color: rgb(165, 7, 7);
+    font-size: 1.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1em;
+    margin-top: 2em;
+}
 .tekstveld {
         width: 30%; 
         height: 20vh;
@@ -245,26 +224,50 @@ main a {
         margin-top: -1em;
 }
 
-.naam {
+
+
+
+
+
+
+/*titels h1: afleveringen en over ons*/
+h1 {
+    font-size: 4em;
+    color: darkred;
     display: flex;
-    justify-content: left;
-    margin-left: 1em;
-    margin-bottom: -1em;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*titels afleveringen*/
+main h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(159, 0, 0);
     font-size: 2em;
-    margin-top: 3em;
+    margin-left: 1.5em;
+    margin-top: 4em;
+    margin-left: 10.5em;
+    margin-bottom: -0.2em;
 }
 
-.illustraties {
-    float: right;
+/*eerste titel afleveringen*/
+.kopje {
+    margin-top: 2em;
+}
+
+/*tekst afleveringenpagina*/
+main p {
+    margin-left: 21em;
+    max-width: 70%;
     margin-top: -13em;
-    margin-right: 3em;
-    margin-bottom: 3em;
 }
 
-#israe {
-    float: right;
-    margin-top: -14em;
-    margin-right: 3em;
+/*thumbnails afleveringen*/
+img {
+    width: 20%;
+    padding-left: 2em;
+    margin-top: -4em;
 }
 
 .afleveringenbalk {
@@ -278,38 +281,35 @@ main a {
 
 
 
-h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgb(159, 0, 0);
+
+
+
+/*kopjes: namen over ons pagina*/
+.naam {
     margin-left: 1em;
-    font-size: 2.2em;
-    margin-bottom: 1em;
-    margin-top: -1em;
+    margin-bottom: -1em;
+    font-size: 2em;
+    margin-top: 3em;
 }
 
- .video {
-    display: flex;
-    justify-content: right;
-    margin-top: -2em;
-    margin-right: 2em;
- }
+/*tekst over ons pagina*/
+.overons {
+    margin-top: 3em;
+    margin-left: 2em;
+    max-width: 60%;
+}
 
- video {
-    width: 20%;
-    height: 25em;
+/*illustraties over ons pagina*/
+.illustraties {
     float: right;
-    margin-right: 8em;
-    border: 2px solid rgb(212, 210, 210);
-    border-radius: 10px;
-    
+    margin-top: -13em;
+    margin-right: 3em;
+    margin-bottom: 3em;
 }
 
-section a:hover {
-    color: rgb(218, 16, 16);
+#israe {
+    float: right;
+    margin-top: -14em;
+    margin-right: 3em;
 }
 
-section a:hover {
-    transform: translateY(3px);
-    
-}
