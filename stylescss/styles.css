@@ -123,6 +123,7 @@ main a{
     background-color: rgb(159, 2, 2);
     color: white;
     padding: 4px 8px;
+    margin-bottom: 2em;
 }
 
 
@@ -134,7 +135,6 @@ section a:hover {
 section a:hover {
     transform: translateY(3px);
 }
-
 
 input {
         width: 30%; 
